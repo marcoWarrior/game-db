@@ -1,0 +1,72 @@
+**BACKEND**
+
+$ cmd //c tree
+Elenco del percorso delle cartelle
+Numero di serie del volume: 0C17-0643
+C:.
+└───demo
+    ├───.idea
+    ├───.mvn
+    │   └───wrapper
+    ├───.vscode
+    ├───src
+    │   ├───main
+    │   │   ├───java
+    │   │   │   └───com
+    │   │   │       └───example
+    │   │   │           └───demo
+    │   │   │               ├───config
+    │   │   │               ├───controller
+    │   │   │               ├───model
+    │   │   │               ├───repository
+    │   │   │               └───service
+    │   │   └───resources
+    │   │       ├───static
+    │   │       └───templates
+    │   └───test
+    │       └───java
+    │           └───com
+    │               └───example
+    │                   └───demo
+    └───target
+        ├───classes
+        │   └───com
+        │       └───example
+        │           └───demo
+        │               ├───config
+        │               ├───controller
+        │               ├───model
+        │               ├───repository
+        │               └───service
+        ├───generated-sources
+        │   └───annotations
+        ├───generated-test-sources
+        │   └───test-annotations
+        ├───maven-status
+        │   └───maven-compiler-plugin
+        │       ├───compile
+        │       │   └───default-compile
+        │       └───testCompile
+        │           └───default-testCompile
+        └───test-classes
+            └───com
+                └───example
+                    └───demo
+
+**FRONTEND(bozza)**
+Workspace/game-database/front
+$ dir
+build          node_modules       package.json  src
+directory.txt  package-lock.json  public
+
+Workspace/game-database/front
+$ cd src
+
+Workspace/game-database/front/src
+$ dir -R
+.:
+CustomRoutes.js  components  index.js  theme.js
+
+./components:
+AdminPage.css  App.css  GameList.css  api.js
+AdminPage.js   App.jsx  GameList.js

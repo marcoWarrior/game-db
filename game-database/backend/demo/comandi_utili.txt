@@ -1,0 +1,16 @@
+Comandi Maven:
+
+mvn clean: Pulisce il progetto, eliminando i file compilati e generati durante la build precedente.
+mvn compile: Compila il codice sorgente del progetto.
+mvn test: Esegue i test del progetto.
+mvn package: Crea il pacchetto del progetto (solitamente un JAR o un WAR) senza installarlo nel repository locale.
+mvn install: Crea il pacchetto del progetto e lo installa nel repository locale, rendendolo disponibile per altri progetti Maven.
+mvn dependency:tree: Mostra l'albero delle dipendenze del progetto.
+mvn clean install: Pulisce il progetto, esegue la build e installa il pacchetto nel repository locale.
+mvn clean test: Pulisce il progetto, esegue la build e i test.
+mvn spring-boot:run: Avvia l'applicazione Spring Boot.
+
+Comandi Spring Boot (eseguiti tramite Maven):
+
+mvn spring-boot:run: Avvia l'applicazione Spring Boot.
+mvn spring-boot:build-image: Crea un'immagine Docker dell'applicazione Spring Boot.

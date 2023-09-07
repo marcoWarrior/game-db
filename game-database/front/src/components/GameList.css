@@ -1,0 +1,88 @@
+/* GameList.css */
+
+/* Stili per la tabella */
+table {
+    width: 200%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    /*margin-left: -50%; /* Aggiungi un margine sinistro negativo */
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd; /* Aggiungi bordo a destra */
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd; /* Aggiungi bordo in alto */
+  }
+  
+  /* Immagini */
+  td img {
+    max-width: 200px;
+    height: auto;
+    cursor: pointer; /* Aggiungi cursore puntatore al passaggio del mouse */
+  }  
+  
+  .modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Rimuovi l'attributo display: none */
+  }
+
+  /* Aggiungi stili per il pulsante di chiusura */
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  background-color: #000;
+  padding: 5px;
+  border-radius: 50%;
+  z-index: 1;
+}  
+  .modal-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombra */
+    background-color: #fff; /* Sfondo bianco */
+    border-radius: 4px; /* Angoli arrotondati */
+  }
+
+  /* Aggiungi spazio tra i pulsanti per votare */
+.button-margin {
+  margin-right: 20px;
+}
+
+
+  /* Aggiungi stile per il testo "Premere 'Esc' per uscire dalla visualizzazione" */
+.modal-escape-text {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+  
+  /* Aggiungi regola per nascondere la finestra modale quando non è aperta */
+  .modal-container.hidden {
+    display: none;
+  }
+  

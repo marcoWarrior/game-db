@@ -1,0 +1,50 @@
+/* Stili per la tabella dei giochi nell'area di amministrazione */
+.admin-game-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-top: 1rem;
+}
+
+.admin-game-table th,
+.admin-game-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  word-break: break-word; /* Questa proprietà rende il testo del contenuto a capo */
+}
+
+.admin-game-table th {
+  background-color: #f2f2f2;
+  border-top: 1px solid #ddd;
+}
+
+/* Stili per il pulsante di modifica */
+.edit-button {
+  background-color: #1976d2;
+  color: #fff;
+  margin-left: 3rem;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.admin-game-table td:nth-child(4),
+.admin-game-table th:nth-child(4) {
+  width: 120px; /* Imposta la larghezza desiderata */
+}
+
+.admin-game-table td:nth-child(5),
+.admin-game-table th:nth-child(5) {
+  width: 120px; /* Imposta la larghezza desiderata */
+}
+
+.edit-button:hover {
+  background-color: #1565c0;
+}
+
+.edit-button:active {
+  background-color: #0d47a1;
+}

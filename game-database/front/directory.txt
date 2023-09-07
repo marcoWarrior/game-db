@@ -1,0 +1,12 @@
+/game-database/front
+$ dir
+build          node_modules       package.json  src
+directory.txt  package-lock.json  public
+
+game-database/front/src
+$ dir -R
+.:
+CustomRoutes.js  components  index.js  theme.js
+
+./components:
+AdminPage.js  App.css  App.jsx  GameDetail.js  GameList.js  api.js
