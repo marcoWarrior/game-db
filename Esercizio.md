@@ -1,6 +1,6 @@
 # game-database
 
-L'obiettivo è la realizzazione di un Game Database, cioè di un'applicazione web che consenta di:
+L'obiettivo è la realizzazione di un Game Database, ovvero un'applicazione web che consenta di:
 1. visualizzare una pagina con l'elenco completo dei giochi censiti;
 2. accedere ad un pannello di amministrazione che consenta di:
 	1. registrare nuove schede gioco;
