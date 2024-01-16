@@ -3,7 +3,11 @@
 ## Storage:
 * Requisiti: Il progetto richiede un sistema di storage per memorizzare i dati dei giochi e i relativi voti.
 * Soluzione: Viene utilizzato MySQL come sistema di gestione del database. XAMPP viene utilizzato per avviare i server Apache e MySQL.
-L'amministrazione del database avviene tramite l'interfaccia web di phpMyAdmin.
+L'amministrazione del database avviene tramite l'interfaccia web di phpMyAdmin
+* E' consigliato create un database denominato "game_database" e creare una tabella chiamata "game".
+Successivamente avviare query SQL per il riempimento della tabella con:
+```INSERT INTO game (title, description, cover_image, rating, total_votes) VALUES ('Gioco 1', 'Descrizione del Gioco 1', 'cover1.jpg', 2, 7);```
+E' possibile iterare questa procedura fino a 'Gioco 10', avendo cosi a disposizione un elenco di giochi già presenti, aventi titolo, descrizione, cover_image, rating e total_votes preimpostati.
 
 ## Backend:
 * Requisiti: Il backend è responsabile della gestione delle richieste del frontend, dell'interazione con il database MySQL e del ritorno dei dati al frontend.
@@ -34,8 +38,9 @@ Questa stringa dovrebbe conferma che il backend è avviato e in ascolto su una p
 4. Frontend:
 5. Assicurati di avere Node.js installato sul tuo sistema.
 6. Aprire **un'altro terminale**, naviga alla directory \game-database\front ed esegui il comando ```npm install``` per installare tutte le dipendenze necessarie.
-7. Successivamente, esegui il comando ```npm start``` per avviare l'applicazione frontend.
-8. Assicurati che il Front End sia avviato e in ascolto su una porta specifica (es. 3000).
+7. NB: Potrebbe essere necessario l'uso del comando ```npm install -g react-scripts```
+8. Successivamente, esegui il comando ```npm start``` per avviare l'applicazione frontend.
+9. Assicurati che il Front End sia avviato e in ascolto su una porta specifica (es. 3000).
 Quindi anche il secondo terminale deve restare attivo.
 
 Se tutto è configurato correttamente si aprirà un Browser mostrandoti il Game Database, se ciò non dovesse accadere, puoi cliccare il 
