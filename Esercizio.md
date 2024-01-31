@@ -17,4 +17,4 @@ Non è richiesta autenticazione per il pannello di amministrazione.
 Requisiti:
 1. le API dovranno essere di tipo REST e realizzate utilizzando spring boot (puoi inizializzare un nuovo progetto spring utilizzando: https://start.spring.io/)
 2. il progetto di frontend dovrà essere realizzato con tecnologia ReactJS (puoi inizializzare un nuovo progetto utilizzando vite: https://vitejs.dev/guide/) 
-3. per lo storage, sto utilizzando MySQL, avviato tramite XAMPP e gestito con phpMyAdmin
+3. DBMS: MySQL, avviato tramite XAMPP e gestito con phpMyAdmin
