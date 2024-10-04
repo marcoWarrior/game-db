@@ -13,7 +13,7 @@ E' possibile iterare questa procedura fino a 'Gioco 10', avendo cosi a disposizi
 * Requisiti: Il backend è responsabile della gestione delle richieste del frontend, dell'interazione con il database MySQL e del ritorno dei dati al frontend.
 * Strumenti utilizzati: Il backend è sviluppato in Java utilizzando Spring Boot come framework. La gestione delle dipendenze e la compilazione del progetto avviene tramite Maven.
 * API: Il backend espone un'API REST per consentire al frontend di ottenere e inviare dati al database.
-* Struttura del progetto: La struttura del progetto backend è organizzata con i package per la configurazione, i controller, i modelli, i repository e i servizi.
+* Architettura MVC: La struttura del progetto backend è organizzata con i package per la configurazione, i controller, i modelli, i repository e i servizi.
 
 ## Frontend:
 * Requisiti: Il frontend è responsabile dell'interfaccia utente dell'applicazione, consentendo agli utenti di visualizzare i giochi, votarli e visualizzare i dettagli.
